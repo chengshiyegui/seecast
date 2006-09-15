@@ -1,0 +1,29 @@
+// seecast.idl : type library source for seecast.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (seecast.tlb).
+
+[ uuid(0B64345A-0596-461D-BB2C-BD74C3FC507F), version(1.0) ]
+library seecast
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CseecastDoc
+	
+	[ uuid(36A5C608-B12E-4BB6-869C-29CBD814BB0D) ]
+	dispinterface Iseecast
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CseecastDoc
+	
+	[ uuid(08023F3F-99EB-4079-B223-F8AFD381D9E2) ]
+	coclass seecast
+	{
+		[default] dispinterface Iseecast;
+	};
+};

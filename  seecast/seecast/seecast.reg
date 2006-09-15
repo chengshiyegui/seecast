@@ -1,0 +1,17 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\seecast.Application = seecast Application
+
+
+HKEY_CLASSES_ROOT\seecast.Application\CLSID = {08023F3F-99EB-4079-B223-F8AFD381D9E2}
+
+HKEY_CLASSES_ROOT\CLSID\{08023F3F-99EB-4079-B223-F8AFD381D9E2} = seecast Application
+HKEY_CLASSES_ROOT\CLSID\{08023F3F-99EB-4079-B223-F8AFD381D9E2}\ProgId = seecast.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{08023F3F-99EB-4079-B223-F8AFD381D9E2}\LocalServer32 = seecast.EXE
