@@ -1,0 +1,1 @@
+We can use this software to implement the P2P style living broadcast and video on demand. It use a P2P tree model to deliever the data and caches the data in the memory. It is very useful in large-scale video broadcast environment.
